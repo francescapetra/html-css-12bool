@@ -1,7 +1,11 @@
 body{
-  background-color: pink;
+  height: 300px;
   }
   .container{
-  background-color: lightgreen;
+  background-color: #ffc0cb;
   height: 200px;
+}
+p{
+  text-align: center;
+  margin: 90px 0;
 }

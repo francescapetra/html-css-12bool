@@ -21,9 +21,12 @@
 }
 
 /* debug */
-[debug*='col-']{
+/* .debug .conteiner{
+  border: 1px solid red;
+} */
+.debug[class*='col-' ]{
   border: 1px solid black;
-  min-height: 200px;
+  height: 200px;
 }
 
 /* colonne */
