@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 
-/* larghezze e clarfix */
+/* larghezze e clearfix */
 .container{
   max-width: 1170px;
   margin: 0 auto;
