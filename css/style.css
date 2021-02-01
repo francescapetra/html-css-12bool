@@ -9,15 +9,21 @@
 .container > [class*="col-"]{
   border: 1px solid black;
   padding: 5px 5px;
-  height: 200px;
+  height: 100%;
+  position: relative;
 }
-p{
-  text-align: center;
-  margin: 90px 0;
+.container.nested{
+  height: 100%;
 }
-.col-6 > [class*="col-"] {
-  border: 1px solid #fff;
+div.container.nested> [class*="col-"]{
+  border: 1px solid #ffffff;
   background-color: #F07F80;
   height: calc( 100% - 5px);
-  position:relative;
+  position: relative;
+}
+p{
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%, -50%);
 }
