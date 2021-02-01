@@ -16,15 +16,16 @@
 }
 
 /* float */
-[class*='col-']{
+[class*="col-"]{
   float: left;
 }
 
 /* debug */
-/* .debug .conteiner{
+.debug .container{
   border: 1px solid red;
-} */
-.debug[class*='col-' ]{
+  height: 200px;
+}
+.debug[class*="col-" ]{
   border: 1px solid black;
   height: 200px;
 }
