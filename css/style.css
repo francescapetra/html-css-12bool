@@ -15,7 +15,7 @@
 .container.nested{
   height: 100%;
 }
-div.container.nested> [class*="col-"]{
+div.container.nested > [class*="col-"]{
   border: 1px solid #ffffff;
   background-color: #F07F80;
   height: calc( 100% - 5px);
