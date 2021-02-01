@@ -9,3 +9,10 @@ p{
   text-align: center;
   margin: 90px 0;
 }
+div.col-2.nested,
+div.col-6.nested,
+div.col-8.nested{
+  background-color: #f07f80;
+  border: 1px solid #fff;
+  height: 200px;
+}
